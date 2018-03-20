@@ -1,0 +1,13 @@
+---
+name: greet2
+pack: st2_demo
+description: Say hello!
+runner_type: python-script
+entry_point: greet2.py
+enabled: true
+parameters:
+    name:
+        description: The name of the person to greet
+        type: string
+        required: true
+        position: 1
