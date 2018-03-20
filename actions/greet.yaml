@@ -1,0 +1,13 @@
+---
+name: greet
+pack: st2_demo
+runner_type: local-shell-cmd
+description: Say hello!
+enabled: true
+entry_point: greet.sh
+parameters:
+    name:
+        description: The name of the person to greet
+        type: string
+        required: true
+        position: 1

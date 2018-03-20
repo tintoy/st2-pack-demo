@@ -1,0 +1,7 @@
+---
+ref: st2_demo
+name: StackStorm Pack Demo
+description: Simple demo pack.
+version: 0.1.0
+author: tintoy
+email: tintoy@tintoy.io
